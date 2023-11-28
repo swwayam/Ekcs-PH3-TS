@@ -1,0 +1,23 @@
+---- Why we need TS ?
+   - Improve dev experience.
+   - Easy to debug
+   - More descriptive than JS. ex - we know the datatypes which overall improves redaiblity.
+   - Is to maintain
+   - To much to write compared to JS.
+
+---- Datatyes in TS / JS 
+   - number -> example : 11, 12 , -12312, 12341314 , 0
+   - string -> example : "EKCS" , 'EKCS', `EKCS` (this is called template literal)
+   - boolean -> example : true , false
+   - void -> Void is a return type, (Means it is used on function to denote that the fucntion won't return any value )
+   - any -> You can use this to automatically detect the type of a data.
+
+
+---- Functions, parameter and Return type
+   - void 
+   - any
+   - other general datatype
+
+---- Linear Search (What , How to Implement )
+---- [10,234,1,23423,132401,123,34] -> sort this array using for loops only (30min) if not understood search -- Selection Sort.
+    
