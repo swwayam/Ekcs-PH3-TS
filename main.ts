@@ -1,6 +1,6 @@
 /**
- * Manager -> Amulya 
- * Senior Developer -> Manish, Sudhir, Naushad, Anoop
+ * Manager -> Manish 
+ * Senior Developer -> Amulya , Sudhir, Naushad, Anoop
  * Intership -> Swayam
  */
 
@@ -31,7 +31,7 @@ sub(10,20)
 
 // arr : any[] -> any datatype can be present in the array
 
-const isIndex = (value : number, arr : number[]) => {
+const isIndex = (value : number, arr : number[]) : number => {
   // for of loop
   // [11,22,33,44,55] value = 33
   for(let index = 0; index < arr.length; index++ ){
@@ -42,13 +42,48 @@ const isIndex = (value : number, arr : number[]) => {
   return -1
 }
 
+
+let emp : number = isIndex(12, [1,2,3,4,5,6,10,12,13,14,234,2,3,432,232])
+
+if(emp < 10){
+  console.log("Vvip");
+}else{
+  console.log("Normal");
+}
+
+
+// let sol = isValuePresent(45, [10,20,30,40])
+// console.log(sol , " isValuePresent");
+
+
+// isIndex() -> 10 Places -> 10 
+
 // isIndex() -> true / false | arr , value
 
-console.log(isIndex(33,  [11,22,33,44,55])) // answer print console
-// let indexPresent = isIndex(33,  [11,22,33,44,55]) // answer store in a variable
+// console.log(isIndex(33,  [11,22,33,44,55])) // answer print console
+
+//**************** What Can Go Wrong ***********/
+
+// Swayam write a function called isIndex which will return True if the value present or false if the if the value is not present.
+
+
+// --- Who , What , Were 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // - void -> Void is a return type, (Means it is used on function to denote that the fucntion won't return any value )
-
 
 
 // - any -> You can use this to automatically detect the type of a data.

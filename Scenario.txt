@@ -18,6 +18,4 @@
    - any
    - other general datatype
 
----- Linear Search (What , How to Implement )
----- [10,234,1,23423,132401,123,34] -> sort this array using for loops only (30min) if not understood search -- Selection Sort.
-    
+---- 
